@@ -1,3 +1,46 @@
+
+@media (max-width: 767px) {
+    
+    body {
+        font-size: 16px; 
+    }
+
+    #navbar .navbar-nav li {
+        margin-left: 0.5em; 
+    }
+
+    #navbar a,
+    #navbar button {
+        font-size: 18px; 
+
+    }
+}
+
+@media (min-width: 768px) {
+
+    #search-form,
+    #newsletter-form {
+        width: 50%; 
+        margin: 0;
+    }
+
+    #slider .carousel-item,
+    #slider img {
+        height: 600px;
+    }
+
+    .carousel-caption {
+        left: 23%;
+        right: 23%;
+    }
+
+    .carousel-caption h5 {
+        font-size: 2.5em;
+    }
+
+}
+
+
 *{
     font-family: 'Montserrat', sans-serif;
  }
@@ -15,31 +58,124 @@ body
 
 .secondary-bg-color
 {
-    background-color: #c09578;
+    background-color: #e35b00;
 }
 
-.light-bg-color
+/* NAVBAR */
+
+#navbar .navbar-nav
 {
-    background-color: #fcf5eb;
+    flex-direction: row;
+    justify-content: start;
 }
 
-.dark-bg-color
+#navbar .navbar-nav li
 {
-    background-color: #101010;
+    margin-left: 1em;
 }
 
-.primary-color
+#navbar a,
+#navbar button
 {
-    color: #c09578;
+    color: #fff;
 }
 
-.secondary-color
+#navbar li
 {
-    color: #626262;
+    position: relative;
 }
 
-.light-color 
+#navbar i
 {
-    color: #fcf5eb;
+    font-size: 20px;
 }
+
+#bag-item span
+{
+    left: 20px;
+}
+
+.navbar-brand
+{
+    font-weight: 700;
+     width: 100%;
+    text-align: center; 
+}
+
+@media(min-width: 768px)
+{
+    .navbar-brand
+    {
+        text-align: left;
+    }
+}
+
+#navbar-items
+{
+    justify-content: space-between;
+}
+
+@media(min-width: 768px)
+{
+    #navbar-items
+    {
+        min-width: 80%;
+        display: flex;
+    }
+}
+
+#search-form,
+#newsletter-form
+{
+    width: 100%;
+    margin: 2em 0;
+}
+
+@media(min-width: 768px)
+{
+    #search-form,
+    #newsletter-form
+    {
+        width: 50%;
+        margin: 0;
+    }
+}
+
+#search-form,
+#newsletter-form
+{
+    border: 2px solid #626262;
+    border-radius: 3px;
+    padding: 5px 15px;
+}
+
+#search-form input,
+#newsletter-form input
+{
+    background-color: transparent;
+    border: none;
+    color: #fff;
+}
+
+#search-form input:focus,
+#newsletter-form
+{
+    box-shadow: none;
+}
+
+/* SECOND NAVBAR */
+
+#second-navbar-container .container
+{
+    justify-content: flex-end;
+}
+
+#second-navbar-container a
+{
+    font-weight: 600;
+    color: #fff;
+}
+
+
+
 
