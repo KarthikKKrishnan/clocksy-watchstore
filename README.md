@@ -7,3 +7,4 @@ The categories available are:
   3)mechanical
   4)quarts
   5)fitness bands
+https://fashion-watches-store-home-page.netlify.app/#
