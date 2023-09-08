@@ -176,14 +176,15 @@ body
     color: #fff;
 }
 .sections{
-    height: 20%;
-    width:100%;
+    background-color: #fff;
 }
 .section-items{
-    display: inline;
+    color: black;
+    display: inline-block;
+    height:450px ;
+    width: 19.5%;
 }
 .section-items img{
-    /* display: inline-block; */
-    height: 350px;
-    width:300px;
+    height: 280px;
+    width: 250px;px;
 }
