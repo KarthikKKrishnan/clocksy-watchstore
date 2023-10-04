@@ -8,4 +8,4 @@ The categories available are:
   4)quarts
   5)fitness bands
 
-Checkout live Demo at https://github.com/KarthikKKrishnan/clocksy-watchstore/templates/index.html
+Checkout live Demo at https://karthikkkrishnan.github.io/clocksy-watchstore/templates/index.html
