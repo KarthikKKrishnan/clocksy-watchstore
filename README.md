@@ -7,4 +7,5 @@ The categories available are:
   3)mechanical
   4)quarts
   5)fitness bands
-https://karthikkkrishnan.github.io/clocksy-watchstore/
+
+Checkout live Demo at https://github.com/KarthikKKrishnan/clocksy-watchstore/templates/index.html
